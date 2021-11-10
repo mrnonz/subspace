@@ -314,7 +314,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://jaredpbostic.com/about/"><img src="https://avatars.githubusercontent.com/u/5026236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jared P Bostic</b></sub></a><br /><a href="https://github.com/subspacecommunity/subspace/commits?author=jpbostic" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ThisIsQasim"><img src="https://avatars.githubusercontent.com/u/18313886?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Qasim Mehmood</b></sub></a><br /><a href="https://github.com/subspacecommunity/subspace/commits?author=ThisIsQasim" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/maduggan"><img src="https://avatars.githubusercontent.com/u/53565912?v=4?s=100" width="100px;" alt=""/><br /><sub><b>maduggan</b></sub></a><br /><a href="https://github.com/subspacecommunity/subspace/commits?author=maduggan" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/mrnonz"><img src="https://avatars.githubusercontent.com/u/9113726?v=4" width="100px;" alt=""/><br /><sub><b>mrnonz</b></sub></a><br /><a href="https://github.com/subspacecommunity/subspace/commits?author=mrnonz" title="Code">💻</a></td>
   </tr>
 </table>
 
