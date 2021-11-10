@@ -133,6 +133,7 @@ $ subspace --http-host subspace.example.com
 | `SUBSPACE_THEME`            | `green`             | The theme to use, please refer to [semantic-ui](https://semantic-ui.com/usage/theming.html) for accepted colors                                      |
 | `SUBSPACE_BACKLINK`         | `/`                 | The page to set the home button to                                                                                                                   |
 | `SUBSPACE_DISABLE_DNS`      | `false`             | Whether to disable DNS so the client uses their own configured DNS server(s). Consider disabling DNS server, if supporting international VPN clients |
+| `SUBSPACE_PERSISTENT_KEEPALIVE`      | `0`             | Whether PersistentKeepalive should be enabled for clients (seconds) |
 
 ### Run as a Docker container
 
@@ -211,6 +212,8 @@ docker create \
   # Optional variable to disable DNS server. Enabled by default.
   # consider disabling DNS server, if supporting international VPN clients
     --env SUBSPACE_DISABLE_DNS=0 \
+    # Optional variable to change PersistentKeepalive
+    --env SUBSPACE_PERSISTENT_KEEPALIVE=20 \
     subspacecommunity/subspace:latest
 
 $ sudo docker start subspace
@@ -246,6 +249,7 @@ services:
     - SUBSPACE_IPV6_GW=fd00::10:97:1
     - SUBSPACE_IPV6_NAT_ENABLED=1
     - SUBSPACE_DISABLE_DNS=0
+    - SUBSPACE_PERSISTENT_KEEPALIVE=20
    cap_add:
     - NET_ADMIN
    network_mode: "host"
@@ -310,6 +314,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://jaredpbostic.com/about/"><img src="https://avatars.githubusercontent.com/u/5026236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jared P Bostic</b></sub></a><br /><a href="https://github.com/subspacecommunity/subspace/commits?author=jpbostic" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ThisIsQasim"><img src="https://avatars.githubusercontent.com/u/18313886?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Qasim Mehmood</b></sub></a><br /><a href="https://github.com/subspacecommunity/subspace/commits?author=ThisIsQasim" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/maduggan"><img src="https://avatars.githubusercontent.com/u/53565912?v=4?s=100" width="100px;" alt=""/><br /><sub><b>maduggan</b></sub></a><br /><a href="https://github.com/subspacecommunity/subspace/commits?author=maduggan" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mrnonz"><img src="https://avatars.githubusercontent.com/u/9113726?v=4" width="100px;" alt=""/><br /><sub><b>mrnonz</b></sub></a><br /><a href="https://github.com/subspacecommunity/subspace/commits?author=mrnonz" title="Code">💻</a></td>
   </tr>
 </table>
 
